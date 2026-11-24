@@ -17,7 +17,8 @@ export default function AIRuleCreator({ onRuleCreated }) {
     setRule(null);
 
     try {
-      const response = await fetch("http://localhost:3001/api/generate-rule", {
+      const apiUrl = import.meta.env.DEV ? "http://localhost:3001/api/generate-rule" : "/api/generate-rule";
+const response = await fetch(apiUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
