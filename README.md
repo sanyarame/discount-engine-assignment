@@ -3,7 +3,7 @@
 An enhanced discount engine with item-level and cart-level discounts, AI-powered discount rule creation, and PDF cart import.
 
 ## Live Deployment
-https://discount-engine-assignment-in1u-oulvowfwi-sanya-31b0.vercel.app
+https://discount-engine-assignment-mocha.vercel.app/
 
 ## Run Locally
 
